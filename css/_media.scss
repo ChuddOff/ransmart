@@ -5,3 +5,45 @@
         }
     }
 }
+@media (max-width:991px) {
+    .main {
+        &__offical {
+            display: none;
+            &__each {
+                display: none;
+            }
+        }
+        h1 {
+            text-align: center;
+        }
+        &__add {
+            text-align: center;
+        }
+        &__gonumber {
+            padding-right: 30px;
+        }
+        .container {
+            .raw {
+                justify-content: center;
+                &:first-child {
+                    div:last-child {
+                        flex-direction: row;
+                        align-items: center
+                    }
+                }
+            }
+        }
+        &__go {
+            text-align: center;
+        }
+    }
+}
+@media (max-width:991px) {
+    .main {
+        .container {
+            .raw:first-child {
+                display: none;
+            }
+        }
+    }
+}
